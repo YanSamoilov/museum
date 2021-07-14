@@ -1,0 +1,10 @@
+.subtitle__support {
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+@media screen and (max-width: 767px) {
+  .subtitle__support {
+    margin-bottom: 38px;
+  }
+}

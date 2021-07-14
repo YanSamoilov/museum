@@ -1,0 +1,15 @@
+.intro__before-action-text {
+  color: #A95099;
+  font-size: 36px;
+  line-height: 1.18;
+  font-family: 'Calibri', serif;
+  letter-spacing: -0.005em;
+  margin: 0 0 17px 0;
+}
+
+@media screen and (max-width: 479px) {
+  .intro__before-action-text {
+    font-size: 24px;
+    margin-bottom: 23px;
+  }
+}

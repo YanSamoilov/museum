@@ -1,0 +1,8 @@
+.menu__nav-list-elem {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.menu__nav-list-elem:last-child {
+  margin-bottom: 0;
+}

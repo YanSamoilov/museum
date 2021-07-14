@@ -1,0 +1,15 @@
+.participants {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(200px, 480px));
+  grid-template-areas:  'org org'
+                        'support partners';
+  padding: 0 100px 83px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .participants {
+    display: block;
+    padding: 0 25px 50px;
+  }
+}

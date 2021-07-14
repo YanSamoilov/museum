@@ -1,0 +1,15 @@
+.projects__card-text-container {
+  max-width: 310px;
+  padding: 24px 30px 33px 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+@media screen and (max-width: 479px) {
+  .projects__card-text-container {
+    max-width: 218px;
+    padding: 21px 23px 26px 15px;
+  }
+}

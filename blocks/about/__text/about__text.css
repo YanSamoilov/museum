@@ -1,0 +1,14 @@
+.about__text {
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  font-family: 'Calibri', serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+  .about__text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}

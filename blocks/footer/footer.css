@@ -1,0 +1,28 @@
+.footer {
+  min-height: 150px;
+  background-color: #F9E7D9;
+  box-sizing: border-box;
+  padding: 0 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 899px) {
+  .footer {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: grid;
+    grid-template-areas:  'mail'
+                          'social'
+                          'copy';
+    padding: 38px 60px;
+    justify-content: center;
+    justify-items: center;
+    gap: 35px;
+  }
+}

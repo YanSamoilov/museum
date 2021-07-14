@@ -1,0 +1,42 @@
+.projects__card-link-more {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: 14px;
+  letter-spacing: inherit;
+  width: 15px;
+  transition: all .4s;
+  position: relative;
+  display: inline-block;
+  width: 92px;
+}
+
+.projects__card-link-more:hover {
+  color: #FBAC86;
+}
+
+.projects__card-link-more::before {
+  content: '';
+  bottom: -4px;
+  left: -4px;
+  position: absolute;
+  border-bottom: 1px solid #000 ;
+  transition: all .4s;
+  width: 0;
+}
+
+.projects__card-link-more:hover::before {
+  width: calc(100% + 5px);
+  border-bottom: 1px solid #FBAC86;
+}
+
+@media screen and (max-width: 479px) {
+  .projects__card-link-more {
+    font-size: 12px;
+  }
+
+  .projects__card-link-more:hover::before {
+    width: calc(100% - 10px);
+  }
+}

@@ -1,0 +1,13 @@
+.header__nav-list-elem {
+  margin-right: 60px;
+}
+
+.header__nav-list-elem:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 849px) {
+  .header__nav-list-elem {
+    margin-right: 40px;
+  }
+}

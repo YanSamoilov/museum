@@ -1,0 +1,10 @@
+.participants__support {
+  grid-area: support;
+  padding-top: 128px;
+}
+
+@media screen and (max-width: 767px) {
+  .participants__support {
+    padding-top: 50px;
+  }
+}

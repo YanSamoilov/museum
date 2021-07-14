@@ -1,0 +1,40 @@
+.header__nav-list-link {
+  font-size: 18px;
+  line-height: 18px;
+  font-family: 'Pribambas',serif;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  transition: opacity .3s linear;
+}
+
+.header__nav-list-link::before, .header__nav-list-link::after {
+  content: '';
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  transition: all 0.4s;
+}
+
+.header__nav-list-link::before {
+  top: -4px;
+  left: -4px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.header__nav-list-link::after {
+  bottom: -4px;
+  right: -4px;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.header__nav-list-link:hover::before, .header__nav-list-link:hover::after {
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+.header__nav-list-link:hover {
+  opacity: .7;
+}

@@ -1,0 +1,13 @@
+.footer__text {
+  font-family: 'Calibri', sans-serif;
+  letter-spacing: -0.005em;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__text {
+    grid-area: copy;
+  }
+}

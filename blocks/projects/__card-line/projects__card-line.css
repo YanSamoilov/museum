@@ -1,0 +1,13 @@
+.projects__card-line {
+  border: 1px solid #FBAC86;
+  width: 45px;
+  display: inline-block;
+  margin: 0 15px 4px 0;
+}
+
+@media screen and (max-width: 479px) {
+  .projects__card-line {
+    width: 30px;
+    margin-right: 25px;
+  }
+}

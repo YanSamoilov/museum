@@ -1,0 +1,15 @@
+.projects__card-text {
+  display: inline-block;
+  margin: 0 0 17px;
+  font-family: 'Calibri', sans-serif;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.005em;
+}
+
+@media screen and (max-width: 479px) {
+  .projects__card-text {
+    margin-bottom: 16px;
+    font-size: 17px;
+  }
+}

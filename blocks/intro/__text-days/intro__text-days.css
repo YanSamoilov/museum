@@ -1,0 +1,16 @@
+.intro__text-days {
+  color: #A95099;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: 'Pribambas', serif;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (max-width: 479px) {
+  .intro__text-days {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}

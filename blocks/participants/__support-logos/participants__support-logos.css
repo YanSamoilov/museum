@@ -1,0 +1,13 @@
+.participants__support-logos {
+  display: grid;
+  grid-template-areas: 'one two three';
+  gap: 30px;
+  align-items: center;
+}
+
+@media screen and (max-width: 865px) {
+  .participants__support-logos {
+    display: flex;
+    flex-direction: column;
+  }
+}

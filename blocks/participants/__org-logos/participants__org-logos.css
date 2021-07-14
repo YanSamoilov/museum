@@ -1,0 +1,16 @@
+.participants__org-logos {
+  display: grid;
+  grid-template-areas:  'one two three';
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  column-gap: 3.5%;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 865px) {
+  .participants__org-logos {
+    grid-template-areas:  'one one'
+                          'two three';
+  }
+}

@@ -1,0 +1,9 @@
+.menu_visible-active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .menu_visible-active{
+    display: none;
+  }
+}

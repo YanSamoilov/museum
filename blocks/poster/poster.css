@@ -1,0 +1,13 @@
+.poster {
+  background-color: #F9E7D9;
+  min-height: 189px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 479px) {
+  .poster {
+    min-height: 100px;
+  }
+}

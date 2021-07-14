@@ -1,0 +1,10 @@
+.footer__mail {
+  grid-area: mail;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Calibri', sans-serif;
+  letter-spacing: -0.005em;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 700;
+}

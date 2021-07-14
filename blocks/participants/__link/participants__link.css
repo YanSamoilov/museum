@@ -1,0 +1,13 @@
+@media screen and (max-width: 865px) {
+  .participants__link {
+    grid-area: one;
+}
+
+.participants__link:nth-child(2) {
+  grid-area: two;
+}
+
+.participants__link:nth-child(3) {
+  grid-area: three;
+}
+}

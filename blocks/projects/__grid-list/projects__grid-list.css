@@ -1,0 +1,16 @@
+.projects__grid-list {
+  display: grid;
+  padding: 80px 26px 97px;
+  list-style-type: none;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 355px));
+  gap: 32px;
+  justify-content: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 479px) {
+  .projects__grid-list {
+    gap: 51px;
+    padding: 23px 26px 33px;
+  }
+}

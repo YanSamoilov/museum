@@ -1,0 +1,25 @@
+.intro__title {
+  text-transform: uppercase;
+  color: #001185;
+  font-family: 'Pribambas', serif;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0 0 17px 0;
+  letter-spacing: -0.005em;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .intro__title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

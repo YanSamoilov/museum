@@ -1,0 +1,17 @@
+.about {
+  padding: 60px 217px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1099px) {
+.about {
+  padding: 24px 100px 28px;
+}
+}
+
+@media screen and (max-width: 699px) {
+  .about {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+  }

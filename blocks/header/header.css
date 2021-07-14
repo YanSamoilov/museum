@@ -1,0 +1,17 @@
+.header {
+  background-color: #F9E7D9;
+  min-height: 103px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 87px 0 65px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+@media screen and (max-width: 849px) {
+  .header {
+    padding-right: 40px;
+    padding-left: 25px;
+    min-height: 70px;
+  }
+}

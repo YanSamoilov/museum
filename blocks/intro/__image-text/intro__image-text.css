@@ -1,0 +1,11 @@
+.intro__image-text {
+  width: 80%;
+  max-width: 646px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__image-text {
+    min-width: 250px;
+  }
+}

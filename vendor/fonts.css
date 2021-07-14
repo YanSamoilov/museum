@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Pribambas';
+  src:
+    url('../vendor/fonts/Pribambas-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src:
+     url('../vendor/fonts/Calibri.woff2') format('woff2'),
+     url('../vendor/fonts/Calibri.woff') format('woff'),
+     url('../vendor/fonts/Calibri.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src:
+    url('../vendor/fonts/Calibri-Bold.woff2') format('woff2'),
+    url('../vendor/fonts/Calibri-Bold.woff') format('woff'),
+    url('../vendor/fonts/Calibri-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}

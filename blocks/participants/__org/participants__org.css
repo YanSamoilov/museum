@@ -1,0 +1,10 @@
+.participants__org {
+  grid-area: org;
+  padding-top: 75px;
+}
+
+@media screen and (max-width: 767px) {
+  .participants__org {
+    padding-top: 25px;
+  }
+}

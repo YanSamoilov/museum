@@ -1,0 +1,25 @@
+.header__button-line {
+  width: 100%;
+  height: 2px;
+  display: inline-block;
+  background-color: #2F2761;
+  position: absolute;
+
+}
+
+.header__button-line::before, .header__button-line::after {
+  background-color: #2F2761;
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+}
+
+
+.header__button-line::before {
+  top: 6px;
+}
+
+.header__button-line::after {
+  top: 12px;
+}

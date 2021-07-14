@@ -1,0 +1,17 @@
+.intro__text-about {
+  font-size: 24px;
+  line-height: 1.2;
+  color: #001185;
+  font-family: 'Calibri', serif;
+  max-width: 650px;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 479px) {
+  .intro__text-about {
+    font-size: 14px;
+    margin-bottom: 22px;
+    max-width: 235px;
+  }
+}

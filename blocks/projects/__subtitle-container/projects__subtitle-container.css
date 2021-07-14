@@ -1,0 +1,13 @@
+.projects__subtitle-container {
+  background-color: #F9E7D9;
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 479px) {
+  .projects__subtitle-container {
+    min-height: 70px;
+  }
+}

@@ -1,0 +1,11 @@
+.participants__partners {
+    grid-area: partners;
+    padding-top: 128px;
+    box-sizing: border-box;
+}
+
+  @media screen and (max-width: 767px) {
+    .participants__partners {
+      padding-top: 77px;
+  }
+}

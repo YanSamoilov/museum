@@ -1,0 +1,10 @@
+.subtitle__participants-org {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+@media screen and (max-width: 767px) {
+  .subtitle__participants-org {
+    margin-bottom: 25px;
+  }
+}
