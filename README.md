@@ -6,4 +6,3 @@
 
 ## Ссылка на GitHub Pages
 [Ссылка на GitHub Pages](https://yansamoilov.github.io/museum/)
-# museum
