@@ -8,7 +8,7 @@
   transition: all .4s;
   position: relative;
   display: inline-block;
-  min-width: 95px;
+  min-width: 92px;
 }
 
 .projects__card-link-more:hover {
