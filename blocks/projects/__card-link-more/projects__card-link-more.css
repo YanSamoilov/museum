@@ -5,11 +5,10 @@
   line-height: inherit;
   font-size: 14px;
   letter-spacing: inherit;
-  width: 30px;
   transition: all .4s;
   position: relative;
   display: inline-block;
-  width: 92px;
+  min-width: 100px;
 }
 
 .projects__card-link-more:hover {
