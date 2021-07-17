@@ -1,0 +1,5 @@
+.projects-details__main-img {
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}

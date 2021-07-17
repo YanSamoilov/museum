@@ -1,0 +1,33 @@
+.projects-details__button {
+  width: 160px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid #FA8E5A;
+  padding: 14px 45px;
+  box-sizing: border-box;
+  color: #001185;
+  font-family: 'Calibri', serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  transition: all .3s linear;
+  text-decoration: none;
+}
+
+.projects-details__button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 978px) {
+  .projects-details__button {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-details__button {
+    margin-top: 0;
+  }
+}

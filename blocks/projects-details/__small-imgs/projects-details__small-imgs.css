@@ -1,0 +1,19 @@
+.projects-details__small-imgs {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-right: 10px;
+max-width: 105px;
+}
+
+@media screen and (max-width: 981px) {
+  .projects-details__small-imgs {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-details__small-imgs {
+    display: none;
+  }
+}

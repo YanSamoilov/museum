@@ -1,0 +1,17 @@
+.projects-details__title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.005em;
+  padding: 23px 0 23px 49px;
+  background-color: #F9E7D9;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-details__title {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 11px 5px 11px 25px;
+  }
+}

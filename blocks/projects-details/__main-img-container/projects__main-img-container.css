@@ -1,0 +1,12 @@
+.projects__main-img-container {
+  max-width: 391px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__main-img-container {
+    width: 268px;
+    margin-right: 0;
+    margin-bottom: 41px;
+  }
+}

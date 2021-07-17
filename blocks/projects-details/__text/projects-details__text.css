@@ -1,0 +1,24 @@
+.projects-details__text {
+max-width: 560px;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: -0.005em;
+margin-top: 0;
+}
+
+.projects-details__text:nth-of-type(2) {
+  margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1122px) {
+  .projects-details__text:nth-of-type(2) {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .projects-details__text:nth-of-type(2) {
+    display: none;
+  }
+}

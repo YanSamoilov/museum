@@ -1,0 +1,9 @@
+.projects__main-content_reverse {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__main-content_reverse {
+    flex-direction: column;
+  }
+}
